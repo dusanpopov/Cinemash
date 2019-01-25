@@ -49,7 +49,9 @@ p {
   .sidebar--right {
     flex: 0 0 32rem;
   }
-} /* screen is wider than 1140px */
+}
+
+/* screen is wider than 1140px */
 
 /* Header styles */
 
@@ -166,13 +168,13 @@ p {
   padding: 3rem;
 }
 
-.movie--card__content h2 {
+.movie--card__title {
   font-size: 3rem;
   font-weight: 400;
   margin: 0;
 }
 
-.movie--card__content a {
+.movie__movie--link {
   color: white;
   cursor: pointer;
   font-size: 1.6rem;
@@ -182,7 +184,7 @@ p {
   font-weight: bold;
 }
 
-.movie__movie--info span {
+.movie__movie--info--span {
   padding-right: 1.5rem;
   font-size: 1.6rem;
 }
@@ -207,23 +209,23 @@ p {
   padding: 0.8rem;
 }
 
-.widget h3 {
-  text-align: center;
-  font-size: 2.2rem;
-}
-
 .widget--content {
   padding: 1rem 2rem;
 }
 
-.sidebar--right ul {
+.widget--content__header {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.sidebar--right__menu__titles {
   list-style-type: none;
   padding-left: 1rem;
   margin-top: 1rem;
   font-size: 1.6rem;
 }
 
-.sidebar--right ul a {
+.sidebar--right__links {
   display: block;
   padding-bottom: 1rem;
   text-decoration: none;
@@ -248,7 +250,7 @@ p {
   list-style-type: none;
 }
 
-.main--navbar__list-item {
+.main--navbar__list--link {
   text-decoration: none;
   color: #ecf0f1;
   padding: 1rem 1rem;
@@ -258,7 +260,7 @@ p {
   font-weight: bold;
 }
 
-.main--navbar__list-item:hover {
+.main--navbar__list--link:hover {
   background-color: #ecf0f1;
   color: #34495e;
 }
@@ -271,7 +273,7 @@ p {
     text-align: center;
   }
 
-  .main--navbar ul li {
+  .main--navbar__list--item {
     flex-grow: 1;
     flex-basis: auto;
     flex-shrink: 0;
